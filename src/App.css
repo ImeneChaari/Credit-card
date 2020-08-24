@@ -1,0 +1,72 @@
+.App {
+  background: none;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form {
+  height:fit-content;
+  margin-top: 200px;
+}
+
+.dateInput, .codeInput, .nameInput {
+  background: none;
+  height: 40px;
+  width:210px;
+  border: none;
+  border-bottom:solid 1px wheat;
+  color: bisque;
+  font-size: 15px;
+  letter-spacing: 3px;
+
+}
+.okBtn{
+  background:none;
+  height: 40px;
+  width:40px;
+  border: 1px solid bisque;
+  border-radius: 50%;
+  color: bisque;
+}
+
+
+.codeOutput {
+  font-size: 30px;
+  letter-spacing: 15px;
+  color: bisque;
+  align-self: center;
+  display: block;
+  text-align: justify;
+  height: 50px;
+}
+
+
+.nameOutput{
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: bisque;
+  margin-top: 0;
+  margin-left: 50px; 
+}
+.dateOutput{
+  font-size: 20px;
+  color: #e6dbda;
+  margin: 0;
+  margin-left: 150px;
+  margin-top: 8px;
+  margin-bottom:30px;
+  letter-spacing: 5px;
+}
+
+.outputs{
+  height:200px;
+  width:680px;
+  margin-top: 300px;
+  margin-right: 200px ;
+  display: flex;
+  flex-direction: column; 
+}
+
+
+

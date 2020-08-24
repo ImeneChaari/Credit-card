@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("credit-card.png");
+  background-size: inherit;
+  background-repeat: no-repeat;
+  font-family: 'Changa', sans-serif;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
